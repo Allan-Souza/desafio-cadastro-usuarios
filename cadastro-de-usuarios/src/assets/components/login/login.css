@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
-#page{
+#page-login{
     background: rgb(97,0,124);
     background: radial-gradient(circle, rgba(97,0,124,1) 0%, rgba(195,70,252,1) 81%);
     width: 100%;
@@ -15,4 +15,8 @@
 
 #card-login input{
     box-shadow: -4px 4px 10px 0px;
+}
+
+#link{
+    margin: 20px 0px 0px 0px;
 }
