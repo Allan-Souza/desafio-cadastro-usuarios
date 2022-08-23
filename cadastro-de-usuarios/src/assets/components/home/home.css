@@ -15,7 +15,8 @@
 }
 
 h1{
-    margin-bottom: 100px;
+    margin-bottom: 200px;
+    font-size: 50px;
 }
 
 #cards{
@@ -27,6 +28,10 @@ h1{
     background-color: #fff;
     border-radius: 20px;
     font-size: larger;
+}
+
+#cards p{
+    margin: 10px;
 }
 
 #card-1{
