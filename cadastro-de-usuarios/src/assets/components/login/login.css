@@ -9,6 +9,10 @@
     padding-top: 80px; 
 }
 
+#page-login button{
+    margin-top: 20px;
+}
+
 #card-login{
     box-shadow: 7px 7px 10px 3px;
 }

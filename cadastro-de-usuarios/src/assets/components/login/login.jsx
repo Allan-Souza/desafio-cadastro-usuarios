@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './login.css'
 
 export const Login = () => {
+    
     return(
         <section id='page-login'>
             <main id='main-content'>
@@ -9,7 +10,7 @@ export const Login = () => {
                     <h1 className='text-center'>Login</h1> <br />
                     <form action="#">
                         <label htmlFor="#" className="col-sm-6 col-form-label">E-mail: </label>
-                        <input type='text' placeholder='Digite seu e-mail' className="form-control"/> <br />
+                        <input type='email' placeholder='Digite seu e-mail' className="form-control"/> <br />
                         <label htmlFor="#" className="col-sm-6 col-form-label">Senha: </label>
                         <input type="password" placeholder='Digite sua senha' className="form-control"/>
                         <br />
