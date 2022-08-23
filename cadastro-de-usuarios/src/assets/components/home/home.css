@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+#page-home{
+    background: rgb(97,0,124);
+    background: radial-gradient(circle, rgba(97,0,124,1) 0%, rgba(195,70,252,1) 81%);
+    width: 100%;
+    height: 100vh;
+    font-family: 'Righteous', cursive; 
+    padding-top: 80px; 
+}
+
+#page-home button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1{
+    margin-bottom: 100px;
+}
+
+#cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+#cards div{
+    background-color: #fff;
+    border-radius: 20px;
+    font-size: larger;
+}
+
+#card-1{
+    box-shadow: 7px 7px 10px 3px;
+}
+
+#card-2{
+    box-shadow: 7px 7px 10px 3px;
+}
